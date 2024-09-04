@@ -17,3 +17,12 @@ VALUES
   (4,	'Jane Ester',	'Av 7 de setembro',	'Erechim',	'RS',	800.00),
   (5, 'Marcos Antônio dos Santos',	'Av Farrapos',	'Porto Alegre',	'RS',	4250.25);
 
+  select name from customers where state = 'RS';
+
+-- SELECT =  Indica quais colunas ou campos serão selecionados na consulta
+
+-- FROM = especifica as tabelas ou consultas que contêm os dados que a cláusula SELECT usará.
+
+-- WHERE = especifica os critérios que os valores do campo devem cumprir para que os registros que contêm os valores sejam incluídos nos resultados da consulta.
+
+
